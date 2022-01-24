@@ -1,0 +1,62 @@
+                                           FORM 
+
+Timeline : 1week
+
+Files required :
+
+  HTML file - 1 
+  CSS file  - 1
+  JS file   - 1
+
+Fields :
+
+   First name
+   Last name
+   Email id
+   Dob
+
+Conditions :
+ 
+   First name => it should contain only alphabets
+   Last name => it should contain only alphabets
+   Email id => it should contain alphanumeric using regex [for eg: abc@gmail.com is INVALID]
+   Dob => it should be in DD/MM/YYYY format
+  
+   * Enter the details in that 4 fields *
+   * By clicking the Submit button, these 4 fields should satisfy all the above conditions *
+   * If any one of the field is left blank, it should display 'This field cannot be blank' message *
+   * If all the entered fields are correct, it should display 'Successfully logged in' message *
+
+Map :
+
+1- Creating html file,link css & js file
+2- inside this file => create a form with div classes like first name, last name, email id, dob, submit button
+3- creating css file
+4- styling the html file 
+5- creating js file for validation using OOPs concept
+
+Pseudocode :
+
+* HTML file *
+link the css file
+creating form inside the body tag
+   creating div class for FIRST NAME
+   creating div class for LAST NAME
+   creating div class for EMAIL ID
+   creating div class for DOB
+   button for SUBMIT => "SUCCESSFULLY LOGGED IN" message
+closing the form
+link the js file
+
+* CSS file *
+styling the html file => styling body, form, each class, button
+
+* JS file *
+validating each field
+creating a function
+    creating a class
+       constructor
+       [validating first & last name]
+       [validating email]
+       [validating dob]
+     
